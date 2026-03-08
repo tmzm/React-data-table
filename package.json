@@ -6,7 +6,7 @@
   "author": "Tareq Al-Mozayek",
   "repository": {
     "type": "git",
-    "url": "https://github.com/tmzm/React-data-table.git"
+    "url": "git+https://github.com/tmzm/React-data-table.git"
   },
   "homepage": "https://github.com/tmzm/React-data-table",
   "bugs": {
@@ -53,7 +53,6 @@
     "@tanstack/react-table": "^8.21.3",
     "lucide-react": "^0.577.0",
     "react": "^19.2.4",
-    "react-data-table": "link:../../../../../home/tmzm/.local/share/pnpm/global/5/node_modules/@tmzm/react-data-table",
     "react-dom": "^19.2.4"
   }
 }
