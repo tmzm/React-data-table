@@ -1,0 +1,43 @@
+{
+  "name": "@tmzm/react-data-table",
+  "version": "1.0.0",
+  "description": "A modern, fully type-safe React data table built on top of @tanstack/react-table.",
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "dist/index.cjs",
+  "module": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "sideEffects": [
+    "*.css"
+  ],
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "require": "./dist/index.cjs"
+    },
+    "./styles.css": "./dist/index.css"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsup src/index.ts"
+  },
+  "devDependencies": {
+    "@types/react": "^19.2.14",
+    "@types/react-dom": "^19.2.3",
+    "tsup": "^8.5.1",
+    "typescript": "^5.9.3"
+  },
+  "dependencies": {
+    "@radix-ui/react-checkbox": "^1.3.3",
+    "@radix-ui/react-select": "^2.2.6",
+    "@tanstack/react-table": "^8.21.3",
+    "lucide-react": "^0.577.0",
+    "react": "^19.2.4",
+    "react-data-table": "link:../../../../../home/tmzm/.local/share/pnpm/global/5/node_modules/@tmzm/react-data-table",
+    "react-dom": "^19.2.4"
+  }
+}
