@@ -3,7 +3,15 @@
   "version": "1.0.0",
   "description": "A modern, fully type-safe React data table built on top of @tanstack/react-table.",
   "license": "ISC",
-  "author": "",
+  "author": "Tareq Al-Mozayek",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tmzm/React-data-table.git"
+  },
+  "homepage": "https://github.com/tmzm/React-data-table",
+  "bugs": {
+    "url": "https://github.com/tmzm/React-data-table/issues"
+  },
   "type": "commonjs",
   "main": "dist/index.cjs",
   "module": "dist/index.js",
