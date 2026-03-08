@@ -12,6 +12,14 @@
   "bugs": {
     "url": "https://github.com/tmzm/React-data-table/issues"
   },
+  "keywords": [
+    "react",
+    "data-table",
+    "table",
+    "react-table",
+    "tanstack-table",
+    "react-data-table"
+  ],
   "type": "commonjs",
   "main": "dist/index.cjs",
   "module": "dist/index.js",
